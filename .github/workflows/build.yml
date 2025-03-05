@@ -16,7 +16,7 @@ jobs:
       uses: dabao1955/kernel_build_action@main
       with:
           kernel-url: https://github.com/qinjunhaocn/GKI-Android-12-5.10
-          kernel-dir: msm-4.19
+          kernel-dir: gki
           kernel-branch: main
           config: defconfig
           arch: arm64
