@@ -18,7 +18,7 @@ jobs:
           kernel-url: https://github.com/qinjunhaocn/realme_gt-neo3-AndroidT-kernel-source
           kernel-dir: neo
           kernel-branch: master
-          config: defconfig
+          config: gki_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
