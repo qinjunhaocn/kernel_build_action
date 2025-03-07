@@ -20,7 +20,7 @@ jobs:
           kernel-branch: android12-5.10-2022-04
           config: defconfig
           arch: arm64
-          aosp-gcc: false
+          aosp-gcc: true
           aosp-clang: true
           ksu: false
           ksu-version: main
