@@ -15,14 +15,14 @@ jobs:
     - name: Build Kernel
       uses: dabao1955/kernel_build_action@main
       with:
-          kernel-url: https://github.com/qinjunhaocn/GKI-Android-12-5.10
-          kernel-dir: gki
-          kernel-branch: main
+          kernel-url: https://github.com/realme-kernel-opensource/realme_gt-neo3-AndroidT-kernel-source/
+          kernel-dir: neo
+          kernel-branch: master
           config: defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
-          ksu: true
+          ksu: false
           ksu-version: main
           android-version: 12
           aosp-clang-version: r416183b
