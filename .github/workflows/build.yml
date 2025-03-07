@@ -15,7 +15,7 @@ jobs:
     - name: Build Kernel
       uses: dabao1955/kernel_build_action@main
       with:
-          kernel-url: https://github.com/realme-kernel-opensource/realme_gt-neo3-AndroidT-kernel-source/
+          kernel-url: https://github.com/qinjunhaocn/realme_gt-neo3-AndroidT-kernel-source
           kernel-dir: neo
           kernel-branch: master
           config: defconfig
